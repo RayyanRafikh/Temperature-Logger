@@ -54,7 +54,6 @@ a17 = fig_4.add_subplot(2,2,2)
 a18 = fig_4.add_subplot(2,2,3)
 a19 = fig_4.add_subplot(2,2,4)
 
-
 for i in range(20):
 
     #creating 20 lists each for temperature values from 20 refrigerators
@@ -63,8 +62,6 @@ for i in range(20):
     #creating 20 lists each for timestamp values corresponding to the temperature values
     globals()[f"x{i}"] = []
     
-
-
 #define animate function separately for each live plot which will be called continuously for each animation
 def animate_0(i,xs,ys):
     
