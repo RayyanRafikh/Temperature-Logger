@@ -1,5 +1,5 @@
 # Temperature Logger
-Python code for logging as well as displaying live temperature values from PT100 sensors using a Raspberry Pi 4 Module B and a few other components as well.
+Python code for logging and displaying live temperature values from PT100 sensors using a Raspberry Pi 4 Module B and a few other components.
 Components required :
 1. 1 x Raspberry Pi(I used the Raspberry Pi Module B)
 2. 20 x PT100(2-wire) sensors
